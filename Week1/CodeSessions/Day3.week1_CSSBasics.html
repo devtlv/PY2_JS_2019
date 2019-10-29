@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- External Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="week1_CSS.css">
+</head>
+<body>
+	<!-- Embedded CSS -->
+	<style>
+
+		/*selector*/
+		p {
+			/*property:value*/
+			color: red;
+		}
+
+		.para1, .para3 {
+			border: 1px solid black
+		}
+
+		#para4 {
+			background-color: pink;
+		}
+		
+		/*Affect all DIRECT children that are paragraph*/
+		.container > p {
+			border: 1px solid black
+		}
+
+		/*Affect all paragragh children*/
+		.container p {
+			border: 1px solid black
+		}
+
+		/*Pseudo class selector*/
+		.para3:hover {
+			color: yellow;
+		}
+	</style>
+
+	
+	<div class="container">
+		<!-- INLINE CSS  -->
+		<p style="color: blue">Hey Everyone</p>
+		<p class="para1 para2 para4 para5">Hey The class</p>
+		<p class="para3">Hey The class</p>
+		<div>
+			<p>Test</p>
+		</div>
+	</div>
+
+	<p>Hey Everyone1</p>
+	<p>Hey Everyone2</p>
+	<p>Hey Everyone3</p>
+
+	</body>
+</html>
