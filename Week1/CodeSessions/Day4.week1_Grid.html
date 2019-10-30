@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<style>
+	* {
+	  box-sizing:border-box;
+	}
+
+	section {
+	  padding: 10px;
+	  border: 3px solid black;
+	  display:grid;
+	  grid-template-columns: 1fr 2fr 1fr;
+	  /*OR WE CAN WRITE INSTEAD*/
+	  /* grid-template-columns: 25% 50% 25% */
+
+	  grid-gap: 10px;
+	  /*OR WE CAN WRITE INSTEAD*/
+	  /*    grid-column-gap:10px; */
+	  /*    grid-row-gap:10px; */
+	  
+	}
+
+	section > div {
+	  padding: 5px;
+	}
+
+	.div1 {
+	  border: 1px solid blue;
+	  background-color: #e6ffff
+	}
+
+	.div2 {
+	  border: 1px solid red;
+	  background-color: #ffd6cc;
+	}
+
+	.div3 {
+	  border: 1px solid orange;
+	  background-color: #ffffcc;
+	}
+
+	</style>
+
+
+    <section>
+    <div class="div1">
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+    </div> 
+      <div class="div2">
+      What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    </div>
+         <div class="div1">
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </div> 
+<div class="div2">
+      What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    </div>
+      <div class="div3">
+      What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    </div>
+    </section>
+</body>
+</html>
