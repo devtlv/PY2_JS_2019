@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+	* {
+	  box-sizing:border-box;
+	}
+
+	section {
+	  height : 400px;
+	  border: 3px solid black;
+	  display:flex;
+	/* See the difference between align-content and align-items    */
+	  
+	/*   align-content: center; */
+	/*   align-items: center; */
+	  justify-content:space-around;
+	  flex-wrap:wrap
+	}
+
+	.div1 {
+	  border: 1px solid blue;
+	  background-color: #e6ffff;
+	  width: 50%;
+	}
+
+	.div2 {
+	  border: 1px solid red;
+	  background-color: #ffd6cc;
+	  width: 30%;
+	  align-self: flex-end
+	}
+
+
+
+	</style>
+
+
+
+
+    <section>
+    <div class="div1">
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+    </div> 
+      <div class="div2">
+      What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    </div>
+         <div class="div1">
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+    </div> 
+      <div class="div2">
+      What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    </div>
+    </section>
+</body>
+</html>
