@@ -28,3 +28,11 @@
 * if it equals to “Chihuahua”, display ‘I LOVE Chihuahua, it’s my favorite *dog*’. Where dog is the item in the array pets created in Exercice2  
 * else, console.log “I dont care, I prefer CATS”  
 
+### Exercise 4
+1. Store your birth year in a variable. 
+2. Store a future year in a variable. 
+3. Calculate your possible ages for that year based on the stored values. 
+4. Display : "I will be NN  in YYYY", substituting the values. 
+
+
+
