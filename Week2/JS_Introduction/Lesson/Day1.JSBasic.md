@@ -1,3 +1,5 @@
+<!---Tags=["javascript", "introduction", "file"]--->
+
 # Introduction to Javascript
 
 ## A small reminder

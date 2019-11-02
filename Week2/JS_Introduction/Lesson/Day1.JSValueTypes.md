@@ -1,4 +1,4 @@
-<!-Tags=["javascript", "number", "string",  "boolean", "comparison]-->
+<!---Tags=["javascript", "number", "string",  "boolean", "comparison]--->
 
 # Javascript Value Types
 
