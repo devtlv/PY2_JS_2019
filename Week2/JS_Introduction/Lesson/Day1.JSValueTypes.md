@@ -146,13 +146,6 @@ var colors = ["blue", "yellow", "green"];
 colors.length // 3
 ```
 
-Accessing the last array element: 
-
-```javascript
-var colors = ["blue", "yellow", "green", 54]; 
-var favorite = colors[colors.length - 1];
-```
-
 ### 4 .Array methods
 
 -The `push()`method : add a new element to the end of an array
