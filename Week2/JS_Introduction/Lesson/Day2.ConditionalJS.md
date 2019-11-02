@@ -23,7 +23,7 @@ if (expression) {
 }
 ```
 
-```javasript
+```javascript
     if (age > 18) {
         console.log("You're a big man")
     }
@@ -40,7 +40,7 @@ if (expression) {
 }
 ```
 
-```javasript
+```javascript
     if (age > 18) {
         console.log("We can go to a pub together !!")
     } else {
@@ -62,7 +62,7 @@ if (expression 1) {
 }
 ```
 
-```javasript
+```javascript
     if (age === 18) {
         console.log("It's your birthday !!) 
     } else if (age > 18) {
