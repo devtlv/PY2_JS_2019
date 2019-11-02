@@ -1,4 +1,4 @@
-<!-Tags=["javascript", "variables", "user-interface functions","boolean, "comparison"]-->
+<!-Tags=["javascript", "variables", "user-interface functions"]-->
 # Javascript variables and user-interface functions
 
 ## Variables
