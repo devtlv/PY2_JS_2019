@@ -92,7 +92,7 @@ op.toFixed(2);           // returns 10.68.
 
 JavaScript has a Boolean data type. It can only take the values `true` or `false`
 
--The Boolean() method: to find out if an expression (or a variable) is true
+- The Boolean() method: to find out if an expression (or a variable) is true
 ```javascript
 var op = Boolean(10 > 9)   // op returns true
 ```
@@ -135,12 +135,9 @@ colors[0] = "pink"
 console.log(colors) // ["pink", "yellow", "green"]; 
 ```
 
-
-
-
 ### 3 .Array properties
 
--The `lenght` property:  returns the length of an array (the number of array elements). Starts at **1**
+- The `lenght` property:  returns the length of an array (the number of array elements). Starts at **1**
 ```javascript
 var colors = ["blue", "yellow", "green"]; 
 colors.length // 3
@@ -148,14 +145,14 @@ colors.length // 3
 
 ### 4 .Array methods
 
--The `push()`method : add a new element to the end of an array
+- The `push()`method : add a new element to the end of an array
 
 ```javascript
 var colors = ["blue", "yellow", "green" ]; 
 colors.push("orange") // var colors = ["blue", "yellow", "green", "orange"];
 ```
 
--The `pop()`method : removes the last element from an array:
+- The `pop()`method : removes the last element from an array:
 
 
 ```javascript
@@ -175,7 +172,7 @@ var colors = ["blue", "yellow", "green" ];
 colors.splice(1, 1, 45, 23); // var colors = ["blue", 45, 23, "green" ]; 
 ```
 
--The `slice()` method: slices out a piece of an array into a new array.
+- The `slice()` method: slices out a piece of an array into a new array.
 The slice() method creates a new array. It does not remove any elements from the source array.
 The method then selects elements from the start argument, and up to (but not including) the end argument.
 ```javascript
