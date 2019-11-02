@@ -64,5 +64,20 @@ Usually the scipt tag is placed at the end of  the body section,so the web page 
 </html>
 ```
 
+### JS and  Object Oriented Programming (OOP)
+
+1. What is an object ?
+
+Objects act just like real life objects.  
+Objects have properties and methods.
+
+> Example :  A lamp has properties  -->  height,width, brightness 
+>                               has methods (an action) --> to shine
+
+JavaScript gives you the ability to **make your own objects**
+
+2. Creating an object
+
+The simplest way is to use the `new` operator.
 
 
