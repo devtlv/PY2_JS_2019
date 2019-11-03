@@ -120,7 +120,7 @@ while (i < 10);
 ## Break Statement
 The `break` statement **breaks the loop** and continues executing the code after the loop
 
-```javascript`
+```javascript
 for (i = 0; i < 10; i++) {
   if (i === 3) { 
       break;

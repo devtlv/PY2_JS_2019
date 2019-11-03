@@ -1,6 +1,6 @@
 <!---Tags=["string"]--->
 
-#Exercises Ninja JS
+# Exercises Ninja JS
 
 ### Exercice 1
 `var me = [“my”,”favorite”,”color”,”is”,”blue”]`

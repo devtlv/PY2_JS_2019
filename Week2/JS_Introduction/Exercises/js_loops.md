@@ -1,6 +1,6 @@
 <!---Tags=["loops", "for", "while"]--->
 
-#Exercises Loops JS
+# Exercises Loops JS
 
 ### Exercice 1 : Your favorite colors
 1. Create an array to hold your top colors 

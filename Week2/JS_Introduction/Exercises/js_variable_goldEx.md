@@ -1,4 +1,4 @@
-#Exercice Gold JS
+# Exercice Gold JS
 
 ### Exercise 1: 
 1. Write a JS program to print alphabet pattern 'A'. with stars * 

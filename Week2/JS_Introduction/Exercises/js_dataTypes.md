@@ -1,6 +1,6 @@
 <!---Tags=["array"]--->
 
-#Exercices Data Types
+# Exercices Data Types
 
 ### Exercice 1 : 
 
