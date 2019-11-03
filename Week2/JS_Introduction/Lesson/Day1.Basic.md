@@ -54,7 +54,7 @@ The benefits of using a separate JavaScript file :
 - Pages load more quickly
 - Can run the same JavaScript on several pages in a web site
 
-Usually the scipt tag is placed at the end of  the body section,so the web page itself will have loaded before the script is read. 
+Usually the scipt tag for the external JS file is placed at the end of the body section, so the web page itself will have loaded before the script is read. 
 
 ```html
 <!DOCTYPE html>
