@@ -39,7 +39,7 @@ myFunction("Sarah", 22)
 myFunction("Ben", 40)
 ```
 
-### 2. Calling/Inkocating a function
+### 2. Calling/Invocating a function
 
 :warning: Functions execute when the function is **called**. 
 
