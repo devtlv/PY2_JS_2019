@@ -66,7 +66,7 @@ str.toLowercase() //returns "hello everyone, please say hello to the class "
 ## Number
 See the Lesson here : [Number](https://di-learning.com/courses/43/sections/190/chapters/196)
 
-### 3.  String Methods
+### 3.  Number Methods
 
 - The `isNaN(x)`method: return true or false
 
