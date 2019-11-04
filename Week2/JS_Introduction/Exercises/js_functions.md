@@ -4,7 +4,7 @@
 
 ## Exercise 1
 1. Write a JS function that takes a parameter: myAge
-2. Display the name of my mum and my dad (my mum is twice my age, and my dad is 1.2 the age of my mum)
+2. Display the age of my mum and my dad (my mum is twice my age, and my dad is 1.2 the age of my mum)
 
  
 ## Exercise 2
