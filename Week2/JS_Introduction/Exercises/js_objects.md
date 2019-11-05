@@ -56,3 +56,9 @@ var prices = {
 Bonus: 
 5. In the function above, only add the price if the item is in stock. 
 * If the item is in stock, decrease the item's stock by 1
+
+###  Exercise 3 GoldExercise
+1. Create two objects, each one should hold a person details. Here are the details:  fullName, mass, height.
+2. Each object should also have a propertie which value is a function that calculates the Body Mass Index (BMI) of each person
+3. Create a JS function that compare both the BMI. 
+
