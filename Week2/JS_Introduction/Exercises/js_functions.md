@@ -34,32 +34,6 @@ The function has to `return` the total cost of the vacation by calling the 3 fun
 > Example : The car cost: $x, the hotel cost: $y, the plane tickets cost: $z. 
  
 5. Call the function `trip_cost` 
-
-## Exercise 4 XP-GOLD
-1. First, make a list called `myGroceries` with the values "banana","orange", and "apple". 
-2. Create this two objects: 
-
-```javascript
-var stock = { 
-    "banana": 6, 
-    "apple": 0, 
-    "orange": 32 
-}  
-
-var prices = {    
-     "banana": 4, 
-    "apple": 2, 
-    "orange": 1.5 
-} 
-```
-
-3. Define a function called `myBill` that takes no argument. `return` the total of the expense for your groceries  
-4. Call the function myBill 
-
-Bonus: 
-5. In the function above, only add the price if the item is in stock. 
-* If the item is in stock, decrease the item's stock by 1
-
  
 ## Exercise 5
 1. Write a JS function that takes a list and returns a new list with unique elements of the first list.  
