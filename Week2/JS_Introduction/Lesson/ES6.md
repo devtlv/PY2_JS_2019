@@ -84,3 +84,55 @@ name = "David" // constant variable
 
 ## Functions
 
+### Function declaration
+
+*Syntax*
+```
+function myFunction(parameters) {
+  // statement to execute
+}
+myFunction(arguments)
+```
+### Function expression
+Functions stored in variables do not need function names. They are always invoked (called) using the variable name.
+
+*Syntax*
+```
+var x = function (parameters) {
+  // statement to execute
+}
+x(arguments)
+```
+### ES6 Arrow Function
+Concise way to write functions in JavaScript.
+
+*Syntax*
+```
+const myFunction = () => {
+   // statement to execute
+}
+```
+
+```javascript
+const show = (name, age) => {
+    console.log(name, age);
+}
+show ("Sarah",20) 
+```
+
+```javascript
+const show = (x, y) => x + y
+```
+
+```javascript
+const show = x => x *2
+```
+
+Arrow functions allow you to have an implicit `return` values are returned without having to use the `return` keyword.
+```javascript
+const show = x => x *2
+show(3) // 6
+```
+
+
+
