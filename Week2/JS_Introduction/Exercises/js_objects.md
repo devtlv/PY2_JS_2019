@@ -33,11 +33,11 @@ If it is than inform the owner that he has to inscrease the rent of Dan. And cha
 
 
 ###  Exercise 3
-1. First, make a list called `myGroceries` with the values "banana","orange", and "apple".  It means you want to buy 1 item from each fruit.
+1. First, make a list called `myGroceries` with the values "banana","orange", and "apple". 
 2. Create this two objects: 
 
 ```javascript
-var stock_in_shop= { 
+var stock = { 
     "banana": 6, 
     "apple": 0, 
     "orange": 32 
@@ -50,7 +50,7 @@ var prices = {
 } 
 ```
 
-3. Define a function called `myBill` that takes no argument. `return` the total of the expense for your groceries .
+3. Define a function called `myBill` that takes no argument. `return` the total of the expense for your groceries  
 4. Call the function myBill 
 
 Bonus: 
