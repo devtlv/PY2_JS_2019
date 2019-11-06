@@ -13,4 +13,4 @@ var names= ["john", "sarah", 23, "Rudolf",34]
 * if the item is a string, display it.
 
 ### The solution in this folder  : 
->
+> https://github.com/devtlv/PY2_JS_2019/tree/master/Week2/JS_Introduction/Exercises/Solutions_Exercises/Day3.loops
