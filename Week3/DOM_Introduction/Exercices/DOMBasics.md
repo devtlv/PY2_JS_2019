@@ -33,9 +33,11 @@ For each of the questions, find **2 WAYS** of accessing :
 </html>
 ``` 
 For the following exercises, you can help yourself with this [website](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference):
-1. Change the background color of the <div> DOM node and inscrease its padding
+1. Change the background color of the <div> DOM node to lightblue and inscrease its padding
 2. Don't display the first name (John) and give a border to the second name (Pete)
 3. Change the font size of the whole HTML
+4. Bonus:
+* Check if the background color of the <div> is lightblue, if yes alert "Hello x and y" (x and y are the new users)
 
 
 ### Exercise 3 - **NINJA**
