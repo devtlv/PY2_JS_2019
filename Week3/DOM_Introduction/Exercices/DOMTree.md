@@ -42,6 +42,9 @@ For the questions below, use at least **2 PROPERITIES** to access :
 2. Change each first name of the <ul> by your name
 3. Add inside of each of the last <li> of each <ul>, a paragraph that says "Hey students"
 4. Delete the <li> Sarah
+5. Bonus: 
+* Change the class of <ul> by "student_list"
+* Add a class "university" to the first <ul>
 
 ### Exercise 3 **NINJA**
 ``` html run
