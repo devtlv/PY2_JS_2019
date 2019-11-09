@@ -1,5 +1,3 @@
-
-
 # HTML Attributes
 
 ### 1.  Accessing and changing a value of an attribute
