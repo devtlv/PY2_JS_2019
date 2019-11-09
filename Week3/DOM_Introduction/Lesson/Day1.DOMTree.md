@@ -68,7 +68,6 @@ document.querySelectorAll(':hover')
 ```
 
 ## SUM UP
-
 Method	 | Searches by...	
 ------------ | -------------
 querySelector | CSS-selector
@@ -78,7 +77,10 @@ getElementsByName | `name``
 getElementsByTagName | tag or '*'
 getElementsByClassName |  `class`
 
-3.  Changing  the HTML
+## Changing DOM nodes
+
+
+1.   Changing  the HTML
 * **innerHTML** property for node element
 ```javascript
 document.getElementById(“#header”).innerHTML = “Hello World!”;
@@ -90,18 +92,46 @@ let text = document.body.firstChild;
 text.data = "Hello"
 ```
 
-5. Adding elements
-* **createElement** method, **appendChild** method
+2. Creating elements
+* **createElement** method
+*Syntax*
+`document.createElement(tag)`
 ```javascript
-var div = document.createElement(‘div’);
-var newContent = document.createTextNode("Hello World!"); 
-div.appendChild(newContent);
+    var div = document.createElement(‘div’);
 ```
 
-6. Deleting elements
+* **createTextNode** method
+*Syntax*
+`document.createTextNode(text)`
+```javascript
+    let textNode = document.createTextNode('Here I am');
+```
+
+3. Adding Element
+* **append** method
+*Syntax*
+`element.append`
+```javascript
+    document.body.append(div);
+```
+
+Method	 | Goal	
+------------ | -------------
+node.append() |  append nodes or strings at the end of node,
+node.prepend() | insert nodes or strings at the beginning of node,
+node.before() | insert nodes or strings before node,
+node.after() | insert nodes or strings after node,
+node.replaceWith() |  replaces node with the given nodes or strings.
+
+
+3. Deleting elements
+* **removeChild** method
 ```javascript
 var elem = document.querySelector('#header');
 elem.parentNode.removeChild(elem);
 ```
-
-
+* **remove** method
+```javascript
+var elem = document.querySelector('#header');
+elem.remove();
+```
