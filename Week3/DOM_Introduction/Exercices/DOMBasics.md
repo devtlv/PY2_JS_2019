@@ -38,7 +38,7 @@ For the following exercises, you can help yourself with this [website](https://d
 3. Change the font size of the whole HTML
 
 
-### Exercise 3 NINJA
+### Exercise 3 - **NINJA**
 ```html run
 <!DOCTYPE HTML>
 <html>

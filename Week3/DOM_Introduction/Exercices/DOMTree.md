@@ -31,6 +31,7 @@ For the questions below, use at least **2 PROPERITIES** to access :
     <li>Pete</li>
   </ul>
   <ul class="list">
+    <li>David</li>
     <li>Sarah</li>
     <li>Dan</li>
   </ul>
@@ -39,3 +40,34 @@ For the questions below, use at least **2 PROPERITIES** to access :
 ```
 1. Change the name "Pete" by "Richard"
 2. Change each first name of the <ul> by your name
+3. Add inside of each of the last <li> of each <ul>, a paragraph that says "Hey students"
+4. Delete the <li> Sarah
+
+### Exercise 3 **NINJA**
+``` html run
+<article>
+<h1> Some Facts </h1>
+<h2> The CHOCOLATE </h2>
+<p>Chocolate is made from tropical Theobroma cacao tree seeds. Its earliest use dates back to the Olmec civilization in Mesoamerica.</p>
+<p> After the European discovery of the Americas, chocolate became very popular in the wider world, and its demand exploded. </p>
+<p>  Chocolate has since become a popular food product that millions enjoy every day, thanks to its unique, rich, and sweet taste.</p> 
+<p> But what effect does eating chocolate have on our health?<:p> </article>
+What is your name ?<input type="text" name="userName">
+What did you think of the article ?<input type="text" name="questionToUser">
+```
+
+1.	Give to all paragraphs inside the article tag the class  `para_article` 
+2.	Remove the last paragraph in the article.
+3.	Add an event listener so that when you click on the h2, it is removed from the DOM.
+4.	Set the font size of the h1 to be a random pixel size from 0 to 100.
+5.	Hide the 1st paragraph, when it's clicked 
+6.	Fade out the 2nd paragraph over 2000 milliseconds, when it's clicked
+7.	Get the value in the inputs and append it to the end of the html, inside a table
+
+### Exercise 4  **NINJA**
+
+1.	Create a form with two inputs text : student_first_name and lstudent_last_name and a button.
+2.	When the teacher clicks on the button, append the complete student name in a list.
+3.	Create another button that calculates the number of students aldready added to the class. Alert the number when the button is clicked.
+4.	Bonus : Create a delete button next to each student, when it's clicked, it should delete the student
+
