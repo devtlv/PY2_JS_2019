@@ -46,7 +46,7 @@ For the questions below, use at least **2 PROPERITIES** to access :
 * Change the class of <ul> by "student_list"
 * Add a class "university" to the first <ul>
 
-### Exercise 3 **NINJA**
+### Exercise 3 **NINJA -- Event**
 ``` html run
 <article>
 <h1> Some Facts </h1>
@@ -67,7 +67,7 @@ What did you think of the article ?<input type="text" name="questionToUser">
 6.	Fade out the 2nd paragraph over 2000 milliseconds, when it's clicked
 7.	Get the value in the inputs and append it to the end of the html, inside a table
 
-### Exercise 4  **NINJA**
+### Exercise 4  **NINJA  -- Event**
 
 1.	Create a form with two inputs text : student_first_name and lstudent_last_name and a button.
 2.	When the teacher clicks on the button, append the complete student name in a list.
@@ -88,4 +88,3 @@ MO | TU | WE | TH | FR | SA | SU
 10| 11 | 12| 13| 14 | 15 | 16 | 
 17| 18 | 19| 20| 21 | 22 | 23 | 
 24| 25 | 26| 27| 28 | 29 | 30 | 
-+
