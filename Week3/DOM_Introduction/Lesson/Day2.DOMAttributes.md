@@ -28,7 +28,7 @@ elem.removeAttribute(name) |  removes the attribute.
 ### 2. Other Examples
 
 ```javascript
-document.getElementsByTag(“img”).src = “test.jpg”;
+document.getElementsByTagName(“img”).src = “test.jpg”;
 ```
 
 ```html run
