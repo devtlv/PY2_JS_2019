@@ -17,9 +17,9 @@
 </html>
 ```
 For the questions below, use at least **2 PROPERITIES** to access :
-1. The <div> node
-2. The <ul> nodes,. and render all of it's children one by one
-3. The first <li> of each <ul>
+1. The `<div>` node
+2. The `<ul>` nodes,. and render all of it's children one by one
+3. The first `<li>` of each `<ul>`
 
 ### Exercise 2
 ```html run
@@ -39,12 +39,12 @@ For the questions below, use at least **2 PROPERITIES** to access :
 </html>
 ```
 1. Change the name "Pete" by "Richard"
-2. Change each first name of the <ul> by your name
-3. Add inside of each of the last <li> of each <ul>, a paragraph that says "Hey students"
-4. Delete the <li> Sarah
+2. Change each first name of the `<ul>` by your name
+3. Add inside of each of the last `<li>` of each `<ul>`, a paragraph that says "Hey students"
+4. Delete the `<li>` Sarah
 5. Bonus: 
-* Change the class of <ul> by "student_list"
-* Add a class "university" to the first <ul>
+* Change the class of `<ul>` by "student_list"
+* Add a class "university" to the first `<ul>`
 
 ### Exercise 3 **NINJA -- Event**
 ``` html run
@@ -78,12 +78,12 @@ What did you think of the article ?<input type="text" name="questionToUser">
 
 Write a function `createCalendar(elem, year, month)`
 The call should create a calendar for the given year/month and put it inside elem.
-The calendar should be a table, where a week is <tr>, and a day is <td>. The table top should be <th> with weekday names: the first day should be Monday, and so on till Sunday.
+The calendar should be a table, where a week is `<tr>`, and a day is `<td>`. The table top should be `<th>` with weekday names: the first day should be Monday, and so on till Sunday.
 For instance, createCalendar(cal, 2012, 9) should generate in element cal the following calendar:
 
 MO | TU | WE | TH | FR | SA | SU
 ------------ | -------------
- | | | | | 1| 2
+.| . | . | . | . | 1| 2
 3| 4 | 5| 6| 7 | 8 | 9 | 
 10| 11 | 12| 13| 14 | 15 | 16 | 
 17| 18 | 19| 20| 21 | 22 | 23 | 
