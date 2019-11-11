@@ -82,7 +82,7 @@ The calendar should be a table, where a week is `<tr>`, and a day is `<td>`. The
 For instance, createCalendar(cal, 2012, 9) should generate in element cal the following calendar:
 
 MO | TU | WE | TH | FR | SA | SU
------------- | -------------
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 .| . | . | . | . | 1| 2
 3| 4 | 5| 6| 7 | 8 | 9 | 
 10| 11 | 12| 13| 14 | 15 | 16 | 
