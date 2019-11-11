@@ -40,7 +40,7 @@ For the questions below, use at least **2 PROPERITIES** to access :
 ```
 1. Change the name "Pete" by "Richard"
 2. Change each first name of the `<ul>` by your name
-3. Add inside of each of the last `<li>` of each `<ul>`, a paragraph that says "Hey students"
+3. Add add the end of each `<ul>`, a paragraph that says "Hey students"
 4. Delete the `<li>` Sarah
 5. Bonus: 
 * Change the class of `<ul>` by "student_list"
