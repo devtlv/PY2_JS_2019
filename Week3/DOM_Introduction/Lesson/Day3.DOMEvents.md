@@ -99,6 +99,7 @@ function RespondClick() {
 When an event happens, the browser creates an event object, puts details into it and passes it as an argument to the handler.
 
 Event Object properties
+
 Name | Description
 ------------ | -------------
 e  | The object containing the event properties

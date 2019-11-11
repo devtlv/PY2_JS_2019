@@ -53,7 +53,7 @@ document.getElementById('demo');
 document.getElementsByClassName('demo');
 document.getElementsByTagName('article');
 document.querySelector('#demo-query');
-document.querySelectorAll('.demo-query-all');
+var demoQueryAll = document.querySelectorAll('.demo-query-all');
 
 demoQueryAll.forEach(query => {
   query.style.border = '1px solid green';
@@ -73,7 +73,7 @@ Method	 | Searches by...
 querySelector | CSS-selector
 querySelectorAll | CSS-selector
 getElementById | `id`
-getElementsByName | `name``
+getElementsByName | `name`
 getElementsByTagName | tag or '*'
 getElementsByClassName |  `class`
 
@@ -83,7 +83,7 @@ getElementsByClassName |  `class`
 1.   Changing  the HTML
 * **innerHTML** property for node element
 ```javascript
-document.getElementById(“#header”).innerHTML = “Hello World!”;
+document.getElementById(“header”).innerHTML = “Hello World!”;
 document.getElementsByTagName("div").innerHTML = "<h1>Hello World!</h1>"
 ```
 * **data** property for text element
