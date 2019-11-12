@@ -123,3 +123,45 @@ target |  The element to which the event occurred
         }
     </script>
 ```
+
+6. Bubbling
+
+When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
+
+```html run
+<form onclick="alert('form')">FORM
+  <div onclick="alert('div')">DIV
+    <p onclick="alert('p')">P</p>
+  </div>
+</form>
+
+<!-- click on P, alert P thant Div than Form -->
+```
+![Bubbling](https://miro.medium.com/max/633/1*rG3JcxeSnztEtmkEVzo4Hg.png)
+
+#### Understanding the difference between `this`and `event.target`
+* `event.target` – is the innermost element over which the event originated
+* `this` (= `e.currentTarget`)– is the “current” element, the one that has a currently running handler on it.
+
+```html run
+  <form id="form">FORM
+    <div>DIV
+      <p>P</p>
+    </div>
+  </form>
+
+  <script>
+  form.onclick = function(event) {
+  event.target.style.backgroundColor = 'yellow';
+  console.log("target = " + event.target.tagName + ", this=" + this.tagName);
+};
+  </script>
+  ```
+
+#### Stop the bublling  `event.stopPropagation()`
+
+```html run
+<body onclick="alert(`the bubbling doesn't reach here`)">
+  <button onclick="event.stopPropagation()">Click me</button>
+</body>
+```
