@@ -14,6 +14,9 @@ setTimeout(sayHi, 1000, "Hello", "John"); //  calls sayHi() after one second -->
 
 ## clearTimeout() to prevent the function to run
 
+Because calling a timer function schedules an action, that action can also be cancelled before it gets executed.
+A call to setTimeout returns a timer “ID” and you can use that timer ID with a clearTimeout call to cancel that timer.
+
 ```html run
 <button onclick="myFunction()">Try it</button>
 <button onclick="myStopFunction()">Stop the alert</button>
@@ -40,6 +43,10 @@ setInterval(function() {
 ```
 
 ## clearInterval()
+
+Because calling a timer function schedules an action, that action can also be cancelled before it gets executed.
+A call to setInterval returns a timer “ID” and you can use that timer ID with a clearTimeout call to cancel that timer.
+
 ```html run
 <p id="demo"></p>
 
