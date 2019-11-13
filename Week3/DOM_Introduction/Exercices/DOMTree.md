@@ -74,7 +74,7 @@ What did you think of the article ?<input type="text" name="questionToUser">
 3.	Create another button that calculates the number of students aldready added to the class. Alert the number when the button is clicked.
 4.	Bonus : Create a delete button next to each student, when it's clicked, it should delete the student
 
-### Exercise 4  **GOLD**
+### Exercise 5  **GOLD**
 
 Write a function `createCalendar(elem, year, month)`
 The call should create a calendar for the given year/month and put it inside elem.
