@@ -41,18 +41,18 @@ Make sure your virtual env is activated!
     python3 manage.py startapp first_app
 
 #### Declaring your app at the project level
-> first_project/settings.py
+>> first_project/settings.py
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    # adding our first app
-    'first_app',
-]
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        # adding our first app
+        'first_app',
+    ]
 
 
 
