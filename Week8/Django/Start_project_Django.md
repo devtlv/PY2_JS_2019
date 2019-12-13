@@ -54,5 +54,7 @@ INSTALLED_APPS = [
     'first_app',
 ]
 ```
+
+
 #### Run the server to make sure it works:
     `python3 manage.py runserver`
