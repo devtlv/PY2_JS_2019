@@ -33,11 +33,12 @@ The **document element**  is the element whose parent is that document,
 Accessing elements : 
 ```
 element.children[index]
-element.firstChild
-element.lastChild
+element.firstElementChild
+element.lastElementChild
 element.parentNode
 element.nextSibling
 element.previousSibling
+element.textContent
 ```
 
 2.  Accessing  nodes with methods
