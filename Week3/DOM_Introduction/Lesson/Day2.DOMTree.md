@@ -32,7 +32,7 @@ The **document element**  is the element whose parent is that document,
 
 Accessing elements : 
 ```
-element.childNodes[index]
+element.children[index]
 element.firstChild
 element.lastChild
 element.parentNode
