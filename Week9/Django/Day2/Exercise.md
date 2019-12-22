@@ -14,31 +14,31 @@
     4.	profile, that takes the id of the user as a parameter 
 
 2.	Create 2 new forms from the User model (django_auth)
-1.	SignupForm : 
-    •	Username
-    •	Password
-    •	Email
-    •	First_name
-    •	Last_name
+    1. SignupForm : 
+        - Username
+        - Password
+        - Email
+        - First_name
+        - Last_name
 
-2.	LoginForm : 
-    •	Username
-    •	Password
+    2. LoginForm : 
+        - Username
+        - Password
 
 3.	Create three new templates (html file) : 
     1.	login.html : renders the form LoginForm
     2.	signup.html : renders the form SignupForm
     3.	profile.html 
-        •	includes the file navbar_homepage.html (**see Part B**)
-        •	renders username, first_name and last_name of the user
+        - includes the file navbar_homepage.html (**see Part B**)
+        - renders username, first_name and last_name of the user
 
-4.	Create a function signup :
-    •	Fetches the data of the form 
-    •	Creates a new user 
-    •	Fetches the user thanks to the method authenticate(). (For more information on the method authenticate : [documentation Django](https://docs.djangoproject.com/fr/2.1/topics/auth/default/): 
-        •	If the user already exists : 
-        - Connect the user (use the login method)
-        - Redirect the user to the route homepage of  film_app **(see Part B**)
+4. Create a function signup :
+    - Fetches the data of the form 
+    - Creates a new user 
+    - Fetches the user thanks to the method authenticate(). (For more information on the method authenticate : [documentation Django](https://docs.djangoproject.com/fr/2.1/topics/auth/default/): 
+        - If the user already exists : 
+            - Connect the user (use the login method)
+            - Redirect the user to the route homepage of  film_app **(see Part B**)
 
 5.	Create a function *login* that acts like the function signup
 6.	Create a function *logout*  that logouts the user and redirect him to the route index of film_app (**see Part B**) (use the method logout [documentation Django](https://docs.djangoproject.com/fr/2.1/topics/auth/default/))
