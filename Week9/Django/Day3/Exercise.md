@@ -7,18 +7,18 @@
 
 1.	Create 4 new models :
     1.	Country : 
-             •	name
+        - name
     2.	Category : 
-            •	name
+        -  name
     3.	Film: 
-            •	title
-            •	release_date (default the date of today) 
-            •	country : ForeignKey of Country
-            •	category: ForeignKey of Category
+        - title
+        - release_date (default the date of today) 
+        - country : ForeignKey of Country
+        - category: ForeignKey of Category
     4.	Director: 
-            •	first_name
-            •	last_name
-            •	film : ForeignKey of Film
+        - first_name
+        - last_name
+        - film : ForeignKey of Film
 
 2.	Create the forms : *AddFilmForm* and *AddDirectorForm*
 3.	Create the routes : *addFilm* and *addDirector*
