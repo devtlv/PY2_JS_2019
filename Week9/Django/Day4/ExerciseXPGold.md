@@ -7,7 +7,7 @@
 
 1.	Follow the [documentation](https://django-crispy-forms.readthedocs.io/en/latest/)
 2.	And this [tutorial](https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html)
-Use the template pack : bootstrap4
+3. Use the template pack : bootstrap4
 
 
 ![image](https://user-images.githubusercontent.com/30896388/71346775-4eb15c80-2571-11ea-8f93-de03c01742d1.png)
