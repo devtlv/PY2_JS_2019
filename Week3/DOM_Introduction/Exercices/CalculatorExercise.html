@@ -3,37 +3,7 @@
   <title>Game Javascript</title>
 </head>
 <body>
-    <h3>Explanation of the calculator : the point is to calculate the tip that you have to pay in a restaurant</h3>
-    <h4>First Part</h4>
-    <ol>
-        <li>Create a function <em>calculateTip</em> that takes no parameter, inside it : </li>
-        <li>Create a variable <em>billAmt</em> that takes the value of the input, which id is billAmt. 
-        <li>Create variables <em>serviceQual</em> that takes the value of the input, which id is serviceQual </li>
-        <li>Create variables <em>numOfPeople</em> that takes the value of the input, which id is numOfPeople </li>
-        <li>Create 1 condition : 
-            <ol>
-                <li>If <em>serviceQual</em> equals 0, or <em>billAmt</em> is empty, alert the user to enter the values and use return;</li>
-            </ol>
-        <li>Create another condition after the first one : 
-            <ol>
-                <li>If <em>numOfPeople</em> is empty or is smaller that 1, give to the variable <em>numOfPeople</em> the value 1, and don't display the tag which id is <strong>each</strong> that is at the end of the html file</li>
-            </ol>
-        </li>
-        <hr><br>
-        <li>Create a variable named <em>total</em> that multiplies the variable billAmt and serviceQual and divide the the it by numOfPeople.It's the average of tip for each person.</li>
-        <li>Then, use the method toFixed to round the total to two decimal</li>
-        <li>Display block the tag with id is <strong>totalTip</strong></li>
-        <li>Display the variable total in the tag which id is <strong>tip</strong></li>
-        
-    <h4>Second Part</h4>
-        <li>To avoid displaying the total if the function <em>calculateTip</em> is not called, display <strong>none</strong> the tag with id is <strong>totalTip</strong></li>
-        <li>Call the function <em>calculateTip</em> when the tag which id is <strong>calculate</strong> is clicked -- HINT : use the method <strong>onclick</strong></li> 
-<hr><hr><br>
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  <div id="calculator">
-
-
+ <div id="calculator">
     <form>
       <p>How much was your bill?
         <p>
@@ -51,6 +21,7 @@
         </select>
 
     </form>
+   
     <p>How many people are sharing the bill?</p>
     <input id="peopleamt" type="text" placeholder="Number of People"> people
     <button type="button" id="calculate">Calculate!</button>
